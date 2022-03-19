@@ -1,0 +1,59 @@
+@import "../../node_modules/purecss/build/pure.css";
+
+/*-- Application stylesheets. -----------------------------------------------*/
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+main {
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+section.content {
+  padding: 20px;
+}
+
+section.content h2 {
+  background-color: #e0e0e0;
+  padding: 25px;
+}
+
+header {
+  background-color: #e8e8e8;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+header .logo {
+  background: url(../assets/logo.svg) no-repeat center center;
+  background-size: 100% 100%;
+  width: 180px;
+  height: 30px;
+}
+
+nav {
+  margin-left: auto;
+  display: flex;
+}
+
+nav a {
+  color: #454545;
+  font-size: 16px;
+  text-decoration: unset;
+  padding: 15px;
+}
+
+nav a:hover {
+  background: #454545;
+  color: #fff;
+}
